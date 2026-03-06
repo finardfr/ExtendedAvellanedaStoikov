@@ -1,9 +1,10 @@
 # Avellaneda-Stoikov Market Making Simulator
 
-This repository implements an HFT Market Making simulator based on the **Avellaneda-Stoikov (2008)** framework. It compares an **Optimal Inventory Strategy** against a **Symmetric Baseline** across different volatility regimes.
+This repository implements an HFT Market Making simulator based on the **Avellaneda-Stoikov (2008)** framework. It compares an **Optimal Inventory Strategy** against a **Symmetric Baseline** across different volatility regimes. You can find an overview of the article [here](https://francescofinardi.com/2026/03/05/extended-avellaneda-stoikov-market-making-model/) and the full article [here](https://drive.google.com/file/d/1jfioQFVS0LzTpsc2N-cQENhkQt-xqwPv/view).
 
 ![PnL Path](img/fig1_pnl_path.png)
 
+![Conditional Inventory](img/fig5_pnl_cond.png)
 ---
 
 ## Key Features
