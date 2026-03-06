@@ -9,9 +9,9 @@ This repository implements an HFT Market Making simulator based on the **Avellan
 
 ## Key Features
 
-* **Optimal Quotes**: Dynamic adjustment of reservation price and spread based on inventory ($q$) and time ($T-t$).
+* **Optimal Quotes**: Dynamic adjustment of reservation price and spread based on inventory ($$q$$) and time ($$T-t$$).
 * **Monte Carlo Engine**: 1,000 simulations per scenario (Low, Medium, High volatility).
-* **Realistic Dynamics**: U-shaped intraday order arrival ($\alpha(t)$) and Gamma-distributed fill sizes.
+* **Realistic Dynamics**: U-shaped intraday order arrival ($$\alpha(t)$$) and Gamma-distributed fill sizes.
 * **Analysis**: Automatic generation of P&L paths, inventory distributions, and Sharpe ratio tables.
 
 ## Requirements
