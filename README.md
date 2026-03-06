@@ -44,5 +44,3 @@ Where:
 * **$\sigma$**: Volatility
 
 ---
-
-**Ti serve aiuto per aggiungere una sezione specifica sui risultati ottenuti o su come modificare i parametri di rischio?**
