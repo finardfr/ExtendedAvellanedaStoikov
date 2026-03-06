@@ -1,5 +1,5 @@
 import math
-import np as np
+import numpy as np
 import matplotlib.pyplot as plt
 from math import sqrt
 from scipy.stats import norm
@@ -132,7 +132,7 @@ for sigma in sigma_values:
     for i_sim in range(n_sim):
         # One shared price path per simulation
         s_path[0] = 100
-        bm.brownian(s_path[0], N, dt, sigma, out=s_path[1:])
+        brownian(s_path[0], N, dt, sigma, out=s_path[1:])
 
         for st in ('opt', 'base'):
             pnl, q, trades = run_strategy(s_path, sigma, st)
@@ -180,7 +180,7 @@ for ax, sigma, label in zip(axes, sigma_values, sigma_labels):
     ax.axhline(0, color='black', lw=0.7, ls='--')
     ax.set_title(label, fontsize=11); ax.set_xlabel('Time'); ax.set_ylabel('PnL [USD]')
     ax.grid(True); ax.legend(fontsize=9)
-plt.tight_layout(); plt.savefig('../img/fig1_pnl_path.pdf', bbox_inches='tight'); plt.close()
+plt.tight_layout(); plt.savefig('../img/fig1_pnl_path.png', bbox_inches='tight'); plt.close()
 
 # ── 2. Mean inventory path ± 1σ band ────────────────────────────────────────
 fig, axes = plt.subplots(1, 3, figsize=(15, 4), sharey=False)
@@ -231,7 +231,7 @@ for ax, sigma, label in zip(axes, sigma_values, sigma_labels):
     ax.axvline(0, color='black', lw=0.8, ls='--')
     ax.set_title(label, fontsize=11); ax.set_xlabel('Terminal PnL'); ax.set_ylabel('Frequency')
     ax.grid(True); ax.legend(fontsize=7)
-plt.tight_layout(); plt.savefig('../img/fig5_pnl_cond.pdf', bbox_inches='tight'); plt.close()
+plt.tight_layout(); plt.savefig('../img/fig5_pnl_cond.png', bbox_inches='tight'); plt.close()
 
 # ── 6. Boxplot: PnL by scenario ──────────────────────────────────────────────
 fig, ax = plt.subplots(figsize=(10, 5))
