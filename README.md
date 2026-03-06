@@ -2,6 +2,8 @@
 
 This repository implements an HFT Market Making simulator based on the **Avellaneda-Stoikov (2008)** framework. It compares an **Optimal Inventory Strategy** against a **Symmetric Baseline** across different volatility regimes.
 
+![PnL Path](img/fig1_pnl_path.png)
+
 ---
 
 ## Key Features
