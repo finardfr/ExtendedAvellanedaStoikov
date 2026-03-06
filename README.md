@@ -30,7 +30,7 @@ python market_maker.py
 
 ```
 
-3. Check the `img/` folder for generated performance plots (PDF).
+3. Check the `img/` folder for generated performance plots (PDF/PNG).
 
 ## Mathematical Core
 
