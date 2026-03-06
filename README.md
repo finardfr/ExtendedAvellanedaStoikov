@@ -47,3 +47,7 @@ Where:
 * **$\sigma$**: Volatility
 
 ---
+
+*References: Avellaneda & Stoikov (2008), Quantitative Finance 8(3). — Fushimi, González Rojas & Herman (2018), Stanford Technical Report. — Cartea, Jaimungal & Penalva (2015), Algorithmic and High-Frequency Trading, Cambridge UP.*
+
+
